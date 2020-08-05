@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>Registration</title>
+  <meta name="description" content="This is the website of the AISTATS conference.
+">
+  <link rel="stylesheet" type="text/css" href="http://localhost:4000/aistats1999/assets/css/aistats.css" />
+  <link rel="shortcut icon" href="http://localhost:4000/aistats1999/assets/images/favicon-aistats.ico" type="image/x-icon">
+  <link rel="icon" href="http://localhost:4000/aistats1999/assets/images/favicon-aistats.ico" type="image/x-icon">  
+  
+  
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    TeX: {
+      equationNumbers: {
+          autoNumber: "AMS"
+        }
+      },
+      tex2jax: {
+      inlineMath: [ ['$','$'] ],
+      displayMath: [ ['$$','$$'] ],
+      processEscapes: true,
+    }
+  });
+</script>
+<script type="text/javascript"
+        src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+  <!-- Solution from http://stackoverflow.com/questions/31593297/using-execcommand-javascript-to-copy-hidden-text-to-clipboard -->
+<script type="text/javascript"
+	src="http://localhost:4000/aistats1999/assets/js/copy_input.js">
+</script>
+<script type="text/javascript"
+	src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script type="text/javascript"
+        src="http://localhost:4000/aistats1999/assets/js/download.js"></script>
+
+  
+</head>
+
+
+
+
+
+
+<body>
+
+
+<div class="hero-image">
+  <div class="hero-text">
+    <img src="/aistats1999/assets/images/logo-aistats.jpg" alt="[Artificial Intelligence and Statistics Logo]">
+    Artificial Intelligence and Statistics 1999
+  </div>
+</div>
+
+<div class="leftmenu">
+  <nav class="site-nav">
+  <ul id="leftnavlist">
+    <li><a id="home" href="./index.html">Home</a></li>
+    
+    <li><a id="accommodation" href="/aistats1999/accommodation.html">Accommodation</a></li><li><a id="committees" href="/aistats1999/committee.html">Committees</a></li><li><a id="program" href="/aistats1999/program.html">Program</a></li><li><a id="registration" href="/aistats1999/registration.html">Registration</a></li><li><a id="submission" href="/aistats1999/submission.html">Submission</a></li>
+    
+    
+    <li><a href="http://web.archive.org/web/20011216224202/http://uncertainty99.microsoft.com/proceedings.htm" target="_blank">Proceedings</a></li>
+  </ul>
+</nav>
+
+</div>
+
+
+
+<script type="text/javascript">
+  document.getElementById('registration').id='leftcurrent';
+</script>
+
+
+
+
+
+
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <p>
+
+
+	<!-- Show Weclome Message - First Time Through --->
+	<table>
+	<tr>
+	<td width="610">
+	
+	
+		<h2>Conference Registration</h2>
+		
+		Participants may register on site.  To register in advance of the Workshop,
+		complete this form and send a check (in US Dollars) made to the order of 
+		&nbsp;<u>Society for Artificial Intelligence and Statistics</u> in the appropriate
+		amount to:
+		<br><br>
+			&nbsp;&nbsp;&nbsp;&nbsp;David Heckerman<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;Microsoft Research<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;One Microsoft Way<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;Redmond, WA 910052-6399<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;USA<br>
+		<br>	
+		Advance registration discounts apply if registration is received by Dec. 1, 1998.
+	
+
+	<!-- Show Form Until Validation Is Successful --->
+	<!-- Begin Form Output -->
+	<form action="/web/20011127035345/http://uncertainty99.microsoft.com/registration.asp" method="POST">
+	<table cellpadding="3" cellspacing="O">
+		<tr>
+			<td>
+			<label id="first" title="Please enter your First name">
+			<b>First Name:</b>
+			</label> 
+			</td>
+			<td>
+			<input type="text" id="first" name="first" size="50" value="">
+			</td>
+		</tr>
+		<tr>
+			<td>	
+			<label id="last" title="Please enter your Last name">
+			<b>Last Name:</b>
+			</label> 
+			</td>
+			<td>
+			<input type="text" id="last" name="last" size="50" value="">
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<label id="affiliation" title="Please enter the organization with which you are Affiliated">
+			<b>				
+			Affiliation:</b>
+			</label> 
+			</td>
+			<td>
+			<input type="text" id="affiliation" name="affiliation" size="70" value="">
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<label id="phone" title="Please your Phone number">
+			<b>			
+			Phone:</b>
+			</label> 
+			</td>
+			<td>
+			<input type="text" id="phone" name="phone" size="20" value="">
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<label id="fax" title="Please enter your fax number">
+			<b>				
+			Fax:</b>
+			</label> 
+			</td>
+			<td>		 
+			<input type="text" id="fax" name="fax" size="20" value="">
+			</td>
+		</tr>
+		<tr>
+			<td>	
+			<label id="email" title="Please enter your E-mail address">
+			<b>
+			E-mail:</b>
+			</label> 
+			</td>
+			<td>		 
+			<input type="text" id="email" name="email" size="50" value="">
+			</td>
+		</tr>
+		<tr>
+			<td>	
+			<label id="address1" title="Please enter your street Address">
+			<b>
+			Address1:</b>
+			</label> 
+			</td>
+			<td>		 
+			<input type="text" id="address1" name="address1" size="70" value="">
+			</td>
+		</tr>
+		<tr>
+			<td>	
+			<label id="address2" title="If needed, enter the rest of your address here">
+			<b>
+			Address2:</b>
+			</label> 
+			</td>
+			<td>		 
+			<input type="text" id="address2" name="address2" size="70" value="">
+			</td>
+		</tr>
+		<tr>
+			<td>	
+			<label id="city" title="Please enter the City where you live">
+			<b>City:</b>
+			</label> 
+			</td>
+			<td>		 
+			<input type="text" id="city" name="city" size="50" value="">
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<label id="state" title="Please enter the State where you live">
+			<b>				
+			State:</b>
+			</label> 
+			</td>
+			<td>		 
+			<input type="text" id="state" name="state" size="2" value="">
+			</td>
+		</tr>
+		<tr>
+			<td>	
+			<label id="zip" title="Please enter your Zip Code">
+			<b>Zip Code:</b>
+			</label> 
+			</td>
+			<td>		 
+			<input type="text" id="zip" name="zip" size="10" value="">
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<br><b>Technical Program -- check one: </b><br>
+			
+			<input type="radio" id="TechnicalProgram" name="TechnicalProgram" value="250">regular, by Dec. 1, 1998: $250 <br>
+			<input type="radio" id="TechnicalProgram" name="TechnicalProgram" value="150">student, by Dec. 1, 1998: $150 <br>
+			<input type="radio" id="TechnicalProgram" name="TechnicalProgram" value="300">regular, after Dec. 1, 1998: $300 <br>
+			<input type="radio" id="TechnicalProgram" name="TechnicalProgram" value="200">student, after Dec. 1, 1998: $200 <br>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<b>Tutorials (Dumais, Spiegelhalter, Hastie) -- check one: </b><br>
+			
+			<input type="radio" id="TutorialProgram1Choice" name="TutorialProgram1Choice" value="75">regular, by Dec. 1, 1998: $75 <br>
+			<input type="radio" id="TutorialProgram1Choice" name="TutorialProgram1Choice" value="50">student, by Dec. 1, 1998: $50 <br>
+			<input type="radio" id="TutorialProgram1Choice" name="TutorialProgram1Choice" value="100">regular, after Dec. 1, 1998: $100 <br>
+			<input type="radio" id="TutorialProgram1Choice" name="TutorialProgram1Choice" value="70">student, after Dec. 1, 1998: $70 <br>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<input type="submit" value="   Continue   " id="submit1" name="submit1">&nbsp;&nbsp;&nbsp;
+			<input type="reset" value="Reset" id="reset1" name="reset1">
+			</td>
+		</tr>		
+	</table>
+</form>
+<br>
+<br>
+<font size="-1">For questions about content or inputting problems contact: <a href="http://web.archive.org/web/20011127035345/mailto:heckerma@microsoft.com">heckermam@microsoft.com</a>
+
+
+
+</td>
+</tr>
+</table>
+
+      </div>
+    </main>
+
+
+<body>
+  <div id="content">
+    <center>This site last compiled Wed, 05 Aug 2020 18:49:32 +0200</center>
+
+    <table width="100%">
+      <tr>
+	<td align="left"><font size="-1">
+	    <i><a href="https://github.com/aistats/aistats1999">Github Account</a></i></font></td>
+	<td align="right"><font size="-1">
+	    Copyright &copy <a href="http://localhost:4000">AISTATS</a> 2020. All rights reserved.</font></td>
+      </tr>
+    </table>
+  </div>
+</body>
+
+
+
+
+
+</body>
+
+</html>

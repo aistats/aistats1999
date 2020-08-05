@@ -1,0 +1,66 @@
+
+# Site settings
+title: Artificial Intelligence and Statistics Conference
+description: > # this means to ignore newlines until "baseurl:"
+  This is the website of the AISTATS conference.
+baseurl: "/aistats1999" # the subpath of your site, e.g. /blog/
+url: "http://www.aistats.org" # the base hostname & protocol for your site
+#twitter_username: aistat
+github_username:  aistats
+author:
+  name: AISTATS
+  email:
+comments: false
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-remote-theme
+remote_theme: lawrennd/proceedings
+style: aistats
+
+ghub:
+  edit: true
+  repository: aistats1999
+
+banner: 
+
+# Build settings
+markdown: kramdown
+
+conference:
+  draft: false # set to True if the programme is draft only.
+  image: hotel.jpg
+  hide_tentative: true
+  proceedings:
+    url: http://web.archive.org/web/20011216224202/http://uncertainty99.microsoft.com/proceedings.htm
+    show: true
+  room: 
+  venue: Radisson Bahia Mar Beach Resort
+  venue_url: 
+  location: Ft. Lauderdale, FL, USA
+  full_name: Artificial Intelligence and Statistics
+  short_name: AISTATS
+  name: Artificial Intelligence and Statistics
+  year: 1999
+  instance: 6th
+  styling: International Workshop on
+  dates:
+  - 1999-01-03
+  - 1999-01-06
+  chairs:
+  - type: General Chair
+    people:
+    - family: Heckerman
+      given: David
+      institute: Microsoft Research
+  - type: Program Chair
+    people:
+    - family: Whittaker
+      given: Joe
+      institute: 
+      url:
+
+# change encoding for the generated output files to utf-8
+encoding: utf-8
+
+
