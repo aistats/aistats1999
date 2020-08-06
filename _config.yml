@@ -29,7 +29,7 @@ markdown: kramdown
 
 conference:
   draft: false # set to True if the programme is draft only.
-  image: hotel.jpg
+  image: 
   hide_tentative: true
   proceedings:
     url: http://web.archive.org/web/20011216224202/http://uncertainty99.microsoft.com/proceedings.htm
