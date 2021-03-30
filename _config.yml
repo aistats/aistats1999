@@ -32,7 +32,7 @@ conference:
   image: 
   hide_tentative: true
   proceedings:
-    url: http://web.archive.org/web/20011216224202/http://uncertainty99.microsoft.com/proceedings.htm
+    url: http://proceedings.mlr.press/r2/
     show: true
   room: 
   venue: Radisson Bahia Mar Beach Resort
